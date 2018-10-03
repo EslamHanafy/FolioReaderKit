@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.screenshots     = "https://raw.githubusercontent.com/FolioReader/FolioReaderKit/assets/custom-fonts.gif", "https://raw.githubusercontent.com/FolioReader/FolioReaderKit/assets/highlight.gif"
   s.license          = 'BSD'
   s.author           = { "Heberti Almeida" => "hebertialmeida@gmail.com" }
-  s.source           = { :git => "https://github.com/FolioReader/FolioReaderKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/EslamHanafy/FolioReaderKit.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/hebertialmeida'
 
   s.swift_version = '4.0'
@@ -30,12 +30,12 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Source/*.h'
 
   s.libraries  = "z"
-  s.dependency 'SSZipArchive', '2.1.1'
-  s.dependency 'MenuItemKit', '3.0.0'
+  s.dependency 'SSZipArchive', '2.1.4'
+  s.dependency 'MenuItemKit', '3.1.3'
   s.dependency 'ZFDragableModalTransition', '0.6'
-  s.dependency 'AEXML', '4.2.2'
-  s.dependency 'FontBlaster', '4.0.1'
+  s.dependency 'AEXML', '4.3.3'
+  s.dependency 'FontBlaster', '4.1.0'
   s.dependency 'JSQWebViewController', '6.0.0'
-  s.dependency 'RealmSwift', '3.1.1'
+  s.dependency 'RealmSwift', '3.10.0'
 
 end
